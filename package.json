@@ -1,0 +1,17 @@
+{
+  "name": "ts-repro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:node": "npx tsc --project tsconfig.json --noEmit --moduleResolution Node",
+    "build:nodenext": "npx tsc --project tsconfig.json --noEmit --moduleResolution NodeNext"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "long": "^5.2.0",
+    "typescript": "^4.8.3"
+  }
+}
